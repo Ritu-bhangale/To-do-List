@@ -198,3 +198,28 @@ footer p{
 .githubicon a:hover,.behanceicon a:hover{
     color: #000000;
 }
+@media (max-width:640px) {
+    h1{
+        font-size: 250%;
+    }
+    h3{
+        font-size: 100%;
+    }
+    input[type=text]{
+        width: 200px;
+        margin-left: 50px;
+        padding-left: 10px;
+    }
+    .plusnote button{
+        width: 40px;
+        margin-left: 20px;
+        height: 40px;
+    }
+    .remaining p{
+        margin-left: 0px;
+    }
+}
+span.remainingno{
+    color: #FE5F55;
+    font-weight: 700;
+}
